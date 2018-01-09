@@ -52,6 +52,10 @@ In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I join
 
 *--John Steinbeck, A Letter to His Son*
 
+When Rabbi Zusha was on his deathbed, his students found him in uncontrollable tears. They tried to comfort him by telling him that he was almost as wise as Moses and as kind as Abraham, so he was sure to be judged positively in Heaven. He replied, "When I get to Heaven, I will not be asked Why weren't you like Moses, or Why weren't you like Abraham. They will ask, Why weren't you like Zusha?"
+
+*--Rabbi Meshulam Zusha of Hanipol*
+
 <hr />
 
 [public key](/pk), [odds](/odds), [travel](/travel), [photos](/photos)
