@@ -100,6 +100,7 @@
 * [The Mill - Divisadero](http://themillsf.com)
 * [20th Century Cafe - Hayes Valley](http://20thcenturycafe.com/)
 * [Trouble Coffee - Outer Sunset (super hipster)](http://www.yelp.com/biz/trouble-coffee-company-san-francisco)
+* [Ritual Coffee - Hayes Valley](https://www.yelp.com/biz/ritual-coffee-roasters-san-francisco-5)
 
 ### Matcha
 
@@ -115,6 +116,9 @@
 * [Hopwater Distribution (good food too) - Nob Hill](http://www.hopwaterdistribution.com/)
 * [Fig & Thistle - Hayes Valley](http://www.figandthistlesf.com/)
 * [Hotel Biron Wine Bar - Hayes Valley](http://www.hotelbiron.com/)
+* [Birba Wine Bar - Hayes Valley](http://www.birbawine.com/)
+* [Trick Dog - Mission](https://www.trickdogbar.com/)
+* [Summer Place - Nob Hill](https://www.yelp.com/biz/summer-place-cocktail-lounge-san-francisco)
 
 ### Food
 
@@ -124,11 +128,14 @@
 * [Udupi Palace - Mission](http://www.udupipalacesanfrancisco.com)
 * [Schmidts - Mission](http://schmidts-sf.com)
 * [Bar Agricole - SoMa](http://www.baragricole.com)
-* [Alta CA - Market](http://altaca.co/)
+* [Trou Normand - SoMa/FiDi](https://www.trounormandsf.com/)
+* [Octavia - Pac Heights](http://www.octavia-sf.com/)
 * [Otoro Sushi - Hayes Valley](http://www.otorosushi.com/)
-* [Plow - Potrero Hill - BEST BREAKFAST](http://www.eatatplow.com/)
-* [Precita Park Cafe - Bernal Heights - rad cafe at the bottom of the hill](http://www.precitaparkcafe.com/)
-
+* [Plow - Potrero Hill - breakfast](http://www.eatatplow.com/)
+* [Precita Park Cafe - Bernal Heights](http://www.precitaparkcafe.com/)
+* [Rich Table - Hayes Valley](http://richtablesf.com/)
+* [Papalote - Mission](http://www.papalote-sf.com/)
+* [Hillside Supperclub - Bernal Heights](http://www.hillsidesupperclub.com/)
 
 ### Hotel
 There aren't a lot of good boutique hotels in San Francisco.
@@ -137,7 +144,6 @@ There aren't a lot of good boutique hotels in San Francisco.
 * [Palace Hotel](http://www.sfpalace.com)
 
 ### Wine
-Napa is fancy and attracts more tourists. Sonoma is country and down to earth.
 
 Napa
 
@@ -146,9 +152,11 @@ Napa
 Sonoma
 
 * [Bella - Neat cave. Dog friendly](http://www.bellawinery.com/)
+* [Quivira - Zin + Cab](https://quivirawine.com/)
 * [VML - Beautiful. Excellent Chardonnay](http://www.vmlwine.com/)
 * [Truett Hurst - Great picnic spot. Farm animals](https://www.truetthurst.com/)
 * [Imagery - Neat art gallery. Awesome harvest parties](http://www.imagerywinery.com/)
+* [Preston - rad farm](https://prestonfarmandwinery.com/)
 
 <hr />
 
