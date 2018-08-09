@@ -27,6 +27,7 @@ In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I join
 
 ## Notes From My Career
 
+* [Engineering Values](/eng-vals)
 * [Personal Accountability at Chain](/personal-accountability-at-chain)
 * [Farewell, Heroku](/farewell-heroku)
 
