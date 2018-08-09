@@ -187,3 +187,5 @@ be permitted. Instead, l2met defined a set of log conventions. If users
 logged in a loosely defined way, they would be rewarded with metrics
 with the smallest possible footprint (writing to STDOUT) across all
 platforms.
+
+July 30th, 2013

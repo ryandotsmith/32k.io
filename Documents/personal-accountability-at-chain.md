@@ -1,6 +1,5 @@
 # Personal Accountability
 
-May 3rd 2014
 
 Accountability is key. I am writing this memo to my colleagues at Chain.com in hopes that they will hold me accountable in our endeavours to create a world class company. I have learned technical leadership from both great and horrible examples. I have made mistakes which cost my workmates time and money. As I progress in my career, I am hyper aware of my personal growth. I want to have 10 years of experience. I do not want ten 1 year experiences.
 
@@ -36,3 +35,5 @@ It is silly, but I can still see Justin's face as he jokingly gave me this quote
 ### Love
 
 Loving people is the single greatest motivating factor for my existence. I build products because I love people and want them to have nice things. I curate teams because I love the people I work with and I want them to have the best possible work experience. If I ever lose the love, I will just quit working and figure out some other direction for my life.
+
+May 3rd, 2014

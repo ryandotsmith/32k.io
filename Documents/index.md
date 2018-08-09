@@ -17,8 +17,8 @@ In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I join
 * [Rest for my soul](/rest-for-my-soul)
 * [God](/God)
 * [Friendships and Oak Trees](/friendships-and-oak-trees)
-* [Remind Me of Your Name](/remind-me-of-your-name)
 * [No Greater Miracle](/no-greater-miracle)
+* [Remind Me of Your Name](/remind-me-of-your-name)
 
 ## Technical Articles
 

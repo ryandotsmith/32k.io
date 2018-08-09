@@ -1,6 +1,5 @@
 # Farewell, Heroku
 
-Auguest 8th 2013
 
 It has been about 2 months since I left Heroku. I left a great job at Heroku to start a business with my good friend [Bobby Wilson](https://twitter.com/bobbywilson0). Looking back, it was the best move that I could have made. Getting back to my entrepreneurial roots restored balance to my life. The mission of our [new company](http://wilsonandsmith.com) fits my personality like a glove. We have the privilege of solving a variety of different problems for a diverse set of people. In the following paragraphs, I will share some of the highlights of the last few years.
 
@@ -29,3 +28,5 @@ The highlight of working at Heroku was being surrounded by wonderful people. The
 I received loads of great advice from my fellow Herokai over the years, but the bit I am holding onto today is an idea from Oren Teich. He told me to figure out how I wanted to live my life and then figure out how to build a career that supported that way of living. Solid.
 
 If you don't know where you want to go, you probably won't get there. The culmination of all the technical, business, and life knowledge I gained while working at Heroku helped me understand how I wanted to live and what sort of work I could do to achieve that way of living. What I realized is that I have a skill for making big changes quickly and effectively. I love to dive into the trench and get my hands dirty solving problems. This style of work supports my ideal, dynamic lifestyle. It also provides real value to companies with problems they don't have the expertise to solve or it is simply not high leverage for their organization.
+
+Auguest 8th, 2013
