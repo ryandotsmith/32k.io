@@ -8,7 +8,7 @@
     }
 </style>
 
-clever isn't<br />
+don't be clever<br />
 ask, learn, teach<br />
 code is a liability<br />
 design and architecture matter<br />
