@@ -1,9 +1,3 @@
-<style>
-  img {
-    max-width: 400px;
-  }
-</style>
-
 ![brooke and ryan](https://d.32k.io/brooke-and-ryan.jpg)
 ![ryan on shovelhead](https://d.32k.io/ryan-shovel.jpg)
 ![ryan on panhead](https://d.32k.io/ryan-pan.jpg)
