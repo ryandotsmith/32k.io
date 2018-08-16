@@ -9,8 +9,8 @@
 </style>
 
 don't be clever<br />
-ask, learn, teach<br />
 code is a liability<br />
+ask, learn, and teach<br />
 design and architecture matter<br />
 first make it correct then make it fast<br />
 only make it fast if you know it matters<br />
