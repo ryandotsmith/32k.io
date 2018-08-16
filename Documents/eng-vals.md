@@ -1,5 +1,13 @@
 # engineering values
 
+<style>
+    @media screen and (max-width: 500px) {
+        body {
+            font-size: 8pt;
+        }
+    }
+</style>
+
 clever isn't<br />
 ask, learn, teach<br />
 code is a liability<br />
