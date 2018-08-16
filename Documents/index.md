@@ -59,4 +59,4 @@ When Rabbi Zusha was on his deathbed, his students found him in uncontrollable t
 
 <hr />
 
-[public key](/pk), [odds](/odds), [travel](/travel), [photos](/photos)
+[public key](/pk), [odds](/odds), [travel](/travel), [photos](/photos), [chopper links](/chopper-links)
