@@ -9,8 +9,8 @@ In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I join
 
 ## Talks
 
-* Predictable Failure - Monitorama EU 2013 - [v](http://vimeo.com/75304752) [s](http://cl.ly/1o1o243O0z2A/Predictable%20Failure%20Monitorama.pdf)
-* Fewer Constraints More Concurrency - RubyKaigi 2013 - [v](http://vimeo.com/68850147) [s](http://cl.ly/2812472J073R/Ruby%20Kaigi%202013%20-%20Fewer%20Constraints%20More%20Concurrency.pdf)
+* [Predictable Failure](http://vimeo.com/75304752) - Monitorama 2013 [s](http://cl.ly/1o1o243O0z2A/Predictable%20Failure%20Monitorama.pdf)
+* [Fewer Constraints More Concurrency](http://vimeo.com/68850147) - RubyKaigi 2013 [s](http://cl.ly/2812472J073R/Ruby%20Kaigi%202013%20-%20Fewer%20Constraints%20More%20Concurrency.pdf)
 
 ## Spirituality
 
