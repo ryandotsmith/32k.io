@@ -4,7 +4,6 @@ import (
 	"crypto/tls"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -26,12 +25,8 @@ func hello(w http.ResponseWriter, r *http.Request) {
 }
 
 func suggestion(w http.ResponseWriter, r *http.Request) {
-	body, err := ioutil.ReadAll(r.Body)
-	if err != nil {
-		http.Error(w, "req body", http.StatusInternalServerError)
-	}
 	sugMu.Lock()
-	if _, err := sugFile.WriteString(string(body) + "\n"); err != nil {
+	if _, err := sugFile.WriteString(string(r.FormValue("suggestion")) + "\n"); err != nil {
 		sugMu.Unlock()
 		http.Error(w, "write suggestion", http.StatusInternalServerError)
 		log.Fatal(err)
