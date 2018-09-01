@@ -10,6 +10,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ryandotsmith/32k.io/net/http/limit"
 	"github.com/ryandotsmith/32k.io/net/mylisten"
 	"github.com/ryandotsmith/32k.io/net/mytls"
 )
@@ -77,6 +78,7 @@ func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", hello)
 	mux.HandleFunc("/c/suggest", suggestion)
+	wraped := limit.NewHandler(mux, 10)
 
 	// Timeout settings based on Filippo's late-2016 blog post
 	// https://blog.filippo.io/exposing-go-on-the-internet/.
@@ -85,7 +87,7 @@ func main() {
 		// must be higher than the event handler timeout (10s)
 		WriteTimeout: 15 * time.Second,
 		IdleTimeout:  120 * time.Second,
-		Handler:      mux,
+		Handler:      wraped,
 	}
 
 	cfg, err := mytls.LocalOrLets(*dir)
