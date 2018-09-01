@@ -80,7 +80,30 @@ Here is a collection of resources for all things Harley Chopper
 <hr />
 send me your suggestions
 
-<textarea name="suggestion" form="suggest" rows="5" cols="80"></textarea>
+<script>
+window.addEventListener("load", function () {
+    function post(f) {
+        var req = new XMLHttpRequest();
+        var body = new FormData(f);
+        req.addEventListener("load", function(event) {
+            alert(event.target.responseText);
+            document.getElementsByName("suggestion")[0].value = "";
+        });
+        req.addEventListener("error", function(event) {
+            alert('Oops! Something went wrong.');
+        });
+        req.open("POST", f.action);
+        req.send(body);
+    }
+    var form = document.getElementById("suggest");
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        post(form);
+    });
+});
+</script>
+
+<textarea name="suggestion" form="suggest" style="width: 96%; height: 75px;"></textarea>
 <form id="suggest" action="https://server.32k.io/c/suggest" method="post">
   <input type="submit">
 </form>
