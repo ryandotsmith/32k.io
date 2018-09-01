@@ -19,11 +19,11 @@ func LocalOrLets(dir string) (*tls.Config, error) {
 		return nil, err
 	}
 	if cert != "" {
-		cert, err := tls.LoadX509KeyPair(cert, key)
+		kp, err := tls.LoadX509KeyPair(cert, key)
 		if err != nil {
 			return nil, errors.New("unable to parse cert or key")
 		}
-		return &tls.Config{Certificates: []tls.Certificate{cert}}, nil
+		return &tls.Config{Certificates: []tls.Certificate{kp}}, nil
 	} else {
 		return LetsEncrypt(dir)
 	}
