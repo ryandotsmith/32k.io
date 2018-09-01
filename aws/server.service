@@ -1,0 +1,16 @@
+[Unit]
+Description=server
+
+[Service]
+LimitNOFILE=65535
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=server
+User=ubuntu
+WorkingDirectory=/home/ubuntu
+ExecStart=/home/ubuntu/server
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
