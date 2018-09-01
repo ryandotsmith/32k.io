@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"golang.org/x/net/html"
 	"github.com/russross/blackfriday"
+	"golang.org/x/net/html"
 )
 
 var (
@@ -20,7 +20,7 @@ func main() {
 	layout, err = ioutil.ReadFile("./layout.html")
 	check(err)
 
-	files, err := ioutil.ReadDir("./Documents")
+	files, err := ioutil.ReadDir("./docs")
 	check(err)
 
 	for i := range files {
@@ -28,11 +28,11 @@ func main() {
 		if srcName[len(srcName)-3:len(srcName)] != ".md" {
 			continue
 		}
-		srcBytes, err := ioutil.ReadFile("./Documents/" + srcName)
+		srcBytes, err := ioutil.ReadFile("./docs/" + srcName)
 		check(err)
 
 		destBytes := title(wrap(convert(append(append(header, srcBytes...), footer...))))
-		destName := "./Site/" + srcName[0:len(srcName)-3]
+		destName := "./site/" + srcName[0:len(srcName)-3]
 		err = ioutil.WriteFile(destName, destBytes, 0644)
 		check(err)
 
@@ -44,7 +44,6 @@ func check(err error) {
 		panic(err)
 	}
 }
-
 
 func title(body []byte) []byte {
 	doc, err := html.Parse(bytes.NewReader(body))
