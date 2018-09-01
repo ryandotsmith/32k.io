@@ -3,3 +3,4 @@ Site
 *.tfstate
 *.tfstate.*
 .terraform
+sdat/
