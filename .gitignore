@@ -1,2 +1,5 @@
 Site
 ./server
+*.tfstate
+*.tfstate.*
+.terraform
