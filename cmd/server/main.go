@@ -36,6 +36,16 @@ func suggestion(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "thanks")
 }
 
+func cors(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		if req.Method == "OPTIONS" {
+			return
+		}
+		next.ServeHTTP(w, req)
+	})
+}
+
 func main() {
 	listen := flag.String("listen", "localhost:7000", "listen `address` (if no LISTEN_FDS)")
 	dir := flag.String("data", "./sdat", "data directory")
@@ -82,6 +92,7 @@ func main() {
 	var handler http.Handler
 	handler = limit.NewHandler(mux, 10)
 	handler = limit.MaxBytes(handler, limit.OneMB)
+	handler = cors(handler)
 
 	// Timeout settings based on Filippo's late-2016 blog post
 	// https://blog.filippo.io/exposing-go-on-the-internet/.
