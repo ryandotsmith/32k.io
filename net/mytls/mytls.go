@@ -25,11 +25,11 @@ func LocalOrLets(dir string) (*tls.Config, error) {
 		}
 		return &tls.Config{Certificates: []tls.Certificate{cert}}, nil
 	} else {
-		return Auto(dir)
+		return LetsEncrypt(dir)
 	}
 }
 
-func Auto(dir string) (*tls.Config, error) {
+func LetsEncrypt(dir string) (*tls.Config, error) {
 	cache := filepath.Join(dir, "autocert")
 	err := os.MkdirAll(cache, 0700)
 	if err != nil {
@@ -60,6 +60,7 @@ func Auto(dir string) (*tls.Config, error) {
 
 	return tlsConfig, nil
 }
+
 func findCertKey(dir string) (cert, key string, err error) {
 	cert = filepath.Join(dir, "localhost.pem")
 	key = filepath.Join(dir, "localhost-key.pem")
