@@ -5,6 +5,17 @@ import (
 	"sync"
 )
 
+const OneMB = 1e6 // 1MB
+
+func MaxBytes(h http.Handler, max int64) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
+		r2 := new(http.Request)
+		*r2 = *req
+		r2.Body = http.MaxBytesReader(w, req.Body, max)
+		h.ServeHTTP(w, r2)
+	})
+}
+
 type Handler struct {
 	next http.Handler
 	l    *ConcurrencyLimiter

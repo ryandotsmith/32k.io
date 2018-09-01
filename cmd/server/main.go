@@ -78,7 +78,10 @@ func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", hello)
 	mux.HandleFunc("/c/suggest", suggestion)
-	wraped := limit.NewHandler(mux, 10)
+
+	var handler http.Handler
+	handler = limit.NewHandler(mux, 10)
+	handler = limit.MaxBytes(handler, limit.OneMB)
 
 	// Timeout settings based on Filippo's late-2016 blog post
 	// https://blog.filippo.io/exposing-go-on-the-internet/.
@@ -87,7 +90,7 @@ func main() {
 		// must be higher than the event handler timeout (10s)
 		WriteTimeout: 15 * time.Second,
 		IdleTimeout:  120 * time.Second,
-		Handler:      wraped,
+		Handler:      handler,
 	}
 
 	cfg, err := mytls.LocalOrLets(*dir)
