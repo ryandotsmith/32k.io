@@ -63,3 +63,9 @@ When Rabbi Zusha was on his deathbed, his students found him in uncontrollable t
 
 <hr />
 <img src="https://d.32k.io/earth.gif" style="margin: 0 auto; display: block; max-width: 50px;" alt="world wide web">
+
+<p style="text-align: center">
+<a href="https://hotlinewebring.club/ryandotsmith/previous">←</a>
+Hotline Webring
+<a href="https://hotlinewebring.club/ryandotsmith/next">→</a>
+</p>
