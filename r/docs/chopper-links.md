@@ -80,4 +80,7 @@ Here is a collection of resources for all things Harley Chopper
 <hr />
 send me your suggestions
 
-[r@32k.io](mailto:r@32k.io)
+<textarea name="suggestion" form="suggest" rows="5" cols="80"></textarea>
+<form id="suggest" action="https://server.32k.io/c/suggest" method="post">
+  <input type="submit">
+</form>
