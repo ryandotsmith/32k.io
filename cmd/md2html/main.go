@@ -2,25 +2,50 @@ package main
 
 import (
 	"bytes"
+	"flag"
 	"io/ioutil"
+	"net/http"
+	"os"
 
 	"github.com/russross/blackfriday"
 	"golang.org/x/net/html"
 )
 
 var (
+	dir    string
 	layout []byte
 	footer []byte
 	header = []byte("*[r.32k.io](/)*\n")
 )
 
 func main() {
-	var err error
+	s := flag.Bool("s", false, "serve html")
+	d := flag.String("d", os.Getenv("K23")+"/r", "markdown directory")
+	flag.Parse()
+	dir = *d
 
-	layout, err = ioutil.ReadFile("./layout.html")
+	do()
+	if *s {
+		var handler http.Handler
+		handler = http.FileServer(http.Dir(dir + "/site"))
+		handler = doHandler(handler)
+		err := http.ListenAndServe(":8080", handler)
+		check(err)
+	}
+}
+
+func doHandler(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
+		do()
+		next.ServeHTTP(w, req)
+	})
+}
+
+func do() {
+	layout, err := ioutil.ReadFile(dir + "/layout.html")
 	check(err)
 
-	files, err := ioutil.ReadDir("./docs")
+	files, err := ioutil.ReadDir(dir + "/docs")
 	check(err)
 
 	for i := range files {
@@ -28,15 +53,15 @@ func main() {
 		if srcName[len(srcName)-3:len(srcName)] != ".md" {
 			continue
 		}
-		srcBytes, err := ioutil.ReadFile("./docs/" + srcName)
+		srcBytes, err := ioutil.ReadFile(dir + "/docs/" + srcName)
 		check(err)
 
 		destBytes := title(wrap(convert(append(append(header, srcBytes...), footer...))))
-		destName := "./site/" + srcName[0:len(srcName)-3]
+		destName := dir + "/site/" + srcName[0:len(srcName)-3]
 		err = ioutil.WriteFile(destName, destBytes, 0644)
 		check(err)
-
 	}
+
 }
 
 func check(err error) {
