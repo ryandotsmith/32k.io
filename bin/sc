@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -ex
+
+file=$1
+name=$(basename $file | tr " " "-")
+
+if [[ $file == http* ]]; then
+    curl -L --silent $file -o /tmp/$name
+    file=/tmp/$name
+fi
+
+echo -n "https://d.32k.io/$name" | pbcopy
+afplay /System/Library/Sounds/Pop.aiff
+/usr/local/bin/aws s3 cp "$file" s3://d.32k.io/ --acl public-read --profile 32k
+afplay /System/Library/Sounds/Tink.aiff
