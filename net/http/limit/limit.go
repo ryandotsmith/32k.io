@@ -1,3 +1,8 @@
+// This package will limit requests by number of concurrent requests
+// It will also help you limit the number of bytes the server will read
+//
+// Big ups to @jbowens for writing this sick code
+// 🙏
 package limit
 
 import (

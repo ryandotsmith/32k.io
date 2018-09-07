@@ -1,4 +1,8 @@
-// use systemd port activation to redirect non-tls to tls
+// This package will help you bind to systemd managed FDs
+//
+// Big ups to @kr for writing this sick code
+// 🙏
+
 package mylisten
 
 import (

@@ -1,3 +1,8 @@
+// This package will help you use TLS always
+//
+// Big ups to @kr for writing this sick code
+// 🙏
+
 package mytls
 
 import (
