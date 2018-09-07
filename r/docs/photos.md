@@ -1,15 +1,24 @@
-![brooke and ryan](https://d.32k.io/brooke-and-ryan.jpg)
-![ryan on shovelhead](https://d.32k.io/ryan-shovel.jpg)
-![ryan on panhead](https://d.32k.io/ryan-pan.jpg)
-![panhead](https://d.32k.io/pan.jpg)
-![ryan and phil](https://d.32k.io/phils-big-day.jpg)
-![ryan and zach in the canadian mountains](https://d.32k.io/ryan-zach-canadian-mountain.jpg)
-![Grandpa](https://d.32k.io/grandpa-in-front-of-801.jpg)
-![working on the dyna](https://d.32k.io/working-on-the-hog.jpg)
-![buds](https://d.32k.io/ryan-and-zyon.jpg)
-![grandpa in front of his model a](https://d.32k.io/grandpa-in-front-of-model-a.jpg)
-![brother and sisters](https://d.32k.io/brother-and-sisters.jpg)
-![ryan and katherine and santa](https://d.32k.io/ryan-katherine-santa.jpg)
-![bike](https://d.32k.io/ryan-abides.jpg)
-![domo arigato](https://d.32k.io/ryan-and-gavin-domo.jpg)
-![nap](https://d.32k.io/taking-a-nap.jpg)
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+    var section = document.getElementById('imgs');
+    for (var i = section.children.length; i >= 0; i--) {
+        section.appendChild(section.children[Math.random() * i | 0]);
+    }
+});
+</script>
+
+<section id="imgs" style="margin: 10px;">
+    <img src="https://d.32k.io/brook-in-austin.jpg"/>
+    <img src="https://d.32k.io/brooke-and-ryan.jpg"/>
+    <img src="https://d.32k.io/ryan-shovel.jpg"/>
+    <img src="https://d.32k.io/ryan-pan.jpg"/>
+    <img src="https://d.32k.io/pan.jpg"/>
+    <img src="https://d.32k.io/phils-big-day.jpg"/>
+    <img src="https://d.32k.io/working-on-the-hog.jpg"/>
+    <img src="https://d.32k.io/grandpa-in-front-of-model-a.jpg"/>
+    <img src="https://d.32k.io/brother-and-sisters.jpg"/>
+    <img src="https://d.32k.io/ryan-katherine-santa.jpg"/>
+    <img src="https://d.32k.io/ryan-abides.jpg"/>
+    <img src="https://d.32k.io/ryan-and-gavin-domo.jpg"/>
+    <img src="https://d.32k.io/taking-a-nap.jpg"/>
+</section>
