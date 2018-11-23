@@ -24,9 +24,15 @@ Here is a collection of resources for all things Harley Chopper
 
 ## Small Batch Manufacturing
 
+* [American Prime](https://americanprimemfginc.com/) - clutch
+* [After Hours Parts](http://afterhourschoppers.com) - tail lights
 * [Baker](https://bakerdrivetrain.com/) - transmission
 * **[BCM](https://prismmotorcycles.com/)** - air cleaners
+* [Bone Orchard](https://www.theboneorchardcycles.com/) - shift konb, cleaners
 * [B&C Cycles](https://bnccycles.com/) - hi mid controls
+* [Conflict Machine](https://www.conflictmachine.org/) - fork caps
+* [Counter Balance Cycles](https://counterbalancecycles.com/) - seats
+* [Cro's](https://crocustoms.bigcartel.com/product/cro-bars) - cro bars
 * [Deep Six Cycles](http://www.deepsixcycles.com) - custom fab
 * [Denvers Choppers](https://denverschoppers.com/) - springers
 * [Fab Kevin](http://www.fabkevin.com) - brakes
@@ -35,6 +41,7 @@ Here is a collection of resources for all things Harley Chopper
 * [Gasbox](https://www.thegasbox.com/) - period exhaust
 * [Haifley Brothers](http://www.haifleybrothers.com/) - hard tail kits
 * [King Mfg.](https://www.kingmfg.co) - wires
+* [Kustom Tech](http://www.kustomtech.eu/en/) - wheels, brakes
 * [Main Drive](http://www.maindrivecycle.com/) - frisco mid controls
 * [Morris Magneto](http://shop.morrismagneto.com/) - magneto
 * [Mullins Chain Drive](http://mullinschaindrive.bigcartel.com) - triple tree
@@ -48,11 +55,13 @@ Here is a collection of resources for all things Harley Chopper
 * [Sprucest Fabrication](https://sprucestfabrication.bigcartel.com/) - coil mount
 * [Twin City Cycle Parts](http://www.twincitycycleparts.com/) - bungs
 * [Visionary Cycle Products](https://visionarycycleproducts.com/) - springer brakes
+* [Wargasser Speed Shop](https://www.instagram.com/wargasserspeedshop) - Juice drum brake brackets
 * [Zombie Performance](http://zombieperformance.com/) - handlebars
 * [0 Given](http://www.0given.com/) - tank decals
 
 ## Repop Manufacturing
 
+* [Colony Machine](http://www.colonymachine.com/ColonyCatalog2018.pdf)
 * [Eastern Motorcycle Parts](http://www.easternmotorcycleparts.com/)
 * [V-Twin Manufacturing](https://www.vtwinmfg.com/)
 
@@ -60,6 +69,10 @@ Here is a collection of resources for all things Harley Chopper
 
 * [Bison Motor Sports](http://www.bisonmotorsports.com/)
 * [Deadbeat Customs](https://www.deadbeatcustoms.com/)
+* [Delux HD Restoration](* https://deluxehdrestorations.com/)
+* [Dennis Kirk](* https://www.denniskirk.com)
+* [Lick's Cycles](https://www.lickscycles.com)
+* [Road Side Repair Shop](https://www.roadsiderepairshop.com/)
 * [TC Bros](http://www.tcbroschoppers.com) - combo of retailer / manufacturing
 * [Throttle Addiction](http://www.throttleaddiction.com) - combo of retailer / manufacturing
 
@@ -68,13 +81,19 @@ Here is a collection of resources for all things Harley Chopper
 * [Lucky Wheels](https://www.luckywheelsgarage.com/) - Los Angeles
 * [Steady Rolling](http://www.steadyrollingmotorcycles.com/) - Oakland
 
+## Helmets
+
+* [Custom Destruction](https://www.helmetrestoration.com/)
+* [Head Candy](http://headcandyfactory.com/index.html)
+* [Joe King Speed Shop](https://joekingspeedshop.bigcartel.com/)
+
 ## Apparel
 
 * [Abel Brown](http://www.psychoresin.bigcartel.com/) - tent
+* [All Good Days](https://allgooddays.bigcartel.com/products) - shirts
 * [Chopper Supply Co.](http://www.choppersupplyco.com/)
 * [Cycle Zombies](http://cyclezombies.com)
-* [Head Candy](http://headcandyfactory.com/index.html) - helmets
-* [Joe King Speed Shop](https://joekingspeedshop.bigcartel.com/) - helmets
+* [Love Cycles](http://lovecycles.bigcartel.com/)
 * [Sweatshop Industries](https://sweatshopind.myshopify.com/) - sissy bar bag
 
 <hr />
