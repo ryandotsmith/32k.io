@@ -1,12 +1,3 @@
-<script>
-document.addEventListener("DOMContentLoaded", function(){
-    var section = document.getElementById('imgs');
-    for (var i = section.children.length; i >= 0; i--) {
-        section.appendChild(section.children[Math.random() * i | 0]);
-    }
-});
-</script>
-
 <section id="imgs" style="margin: 10px;">
     <img src="https://d.32k.io/brook-in-austin.jpg"/>
     <img src="https://d.32k.io/brooke-and-ryan.jpg"/>
