@@ -27,7 +27,7 @@ Here is a collection of resources for all things Harley Chopper
 * [American Prime](https://americanprimemfginc.com/) - clutch
 * [After Hours Parts](http://afterhourschoppers.com) - tail lights
 * [Baker](https://bakerdrivetrain.com/) - transmission
-* **[BCM](https://prismmotorcycles.com/)** - air cleaners
+* **[BCM](https://bcmmoto.bigcartel.com/)** - air cleaners
 * [Bone Orchard](https://www.theboneorchardcycles.com/) - shift konb, cleaners
 * [B&C Cycles](https://bnccycles.com/) - hi mid controls
 * [Conflict Machine](https://www.conflictmachine.org/) - fork caps
