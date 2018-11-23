@@ -42,7 +42,8 @@ func doHandler(next http.Handler) http.Handler {
 }
 
 func do() {
-	layout, err := ioutil.ReadFile(dir + "/layout.html")
+	var err error
+	layout, err = ioutil.ReadFile(dir + "/layout.html")
 	check(err)
 
 	files, err := ioutil.ReadDir(dir + "/docs")
