@@ -1,4 +1,47 @@
-# Ryan R. Smith
+<script>
+window.addEventListener('load', function() {
+    var colors = ['#2B2D42', '#8D99AE', '#EF233C', '#D90429'];
+
+    function rand(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    function spanit(tn) {
+        var col = document.getElementsByTagName(tn);
+        for (var i = 0; i < col.length; i++) {
+            var text = col[i].innerText;
+            col[i].innerText = '';
+            for (var j = 0; j < text.length; j++) {
+                var s = document.createElement('span');
+                s.className = 'colored';
+                s.innerHTML = text[j];
+                col[i].appendChild(s);
+            }
+        }
+    }
+
+    var x = 0;
+    function rot(offset) {
+        x++;
+        if (x%offset== 0) {
+            var col = document.getElementsByClassName('colored');
+            for (var i = 0; i < col.length; i++) {
+                //col[i].style.color = colors[rand(colors.length)];
+                col[i].style.color = '#'+Math.floor(Math.random()*16777215).toString(16);
+            }
+        }
+    }
+
+    spanit('h1');
+    spanit('h2');
+    window.addEventListener('mousemove', function() {rot(20)});
+    window.addEventListener('scroll',    function() {rot(5) });
+});
+</script>
+
+<h1>Ryan R. Smith</h1>
+
+Waddup 🤙 I live in Frisco, I love Jesus, I ride bikes, I derp computers, among other things...
 
 In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I joined the Heroku engineering team to help build the world's greatest PAAS. Before joining Heroku I earned a B.S. in Mathematics from the University of Missouri Kansas City.
 
