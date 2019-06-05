@@ -57,6 +57,7 @@ In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I join
 
 ## Spirituality
 
+* [Continuing Forgiveness](/forgiveness)
 * [Rest for my soul](/rest-for-my-soul)
 * [God](/God)
 * [Friendships and Oak Trees](/friendships-and-oak-trees)
