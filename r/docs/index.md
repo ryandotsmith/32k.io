@@ -1,9 +1,10 @@
 <script>
 window.addEventListener('load', function() {
-    var colors = ['#2B2D42', '#8D99AE', '#EF233C', '#D90429'];
 
-    function rand(max) {
-        return Math.floor(Math.random() * Math.floor(max));
+    function randcolor() {
+        const colors = ['#bc5a45', '#618685', '#36486b', '#f18973'];
+        var i = Math.floor(Math.random() * Math.floor(colors.length));
+        return colors[i];
     }
 
     function spanit(tn) {
@@ -26,8 +27,7 @@ window.addEventListener('load', function() {
         if (x%offset== 0) {
             var col = document.getElementsByClassName('colored');
             for (var i = 0; i < col.length; i++) {
-                //col[i].style.color = colors[rand(colors.length)];
-                col[i].style.color = '#'+Math.floor(Math.random()*16777215).toString(16);
+                col[i].style.color = randcolor();
             }
         }
     }
