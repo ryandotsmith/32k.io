@@ -41,7 +41,7 @@ window.addEventListener('load', function() {
 
 <h1>Ryan R. Smith</h1>
 
-Waddup 🤙 I live in Frisco, I love Jesus, I ride bikes, I derp computers, among other things...
+Waddup 🤙 Im a son of God, I want to be like Jesus, I am a lovesick worshiper, I live in Frisco, I ride bikes, I derp computers, and other things that are not listed on this webpage...
 
 In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I joined the Heroku engineering team to help build the world's greatest PAAS. Before joining Heroku I earned a B.S. in Mathematics from the University of Missouri Kansas City.
 
