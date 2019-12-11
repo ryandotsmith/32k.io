@@ -2,7 +2,7 @@
 
 *As understood from Colossians 1:21-23*
 
-After what happened in the garden, we separated ourselves from God. We were living without eternal hope. There was *something* that was holding us back. Something keeping our hearts from true freedom. But Papa, knowing that this would happen, already had a plan to bring us back.
+After what happened in the garden, we separated ourselves from God. We were living with no eternal hope. There was *something* holding us back. Something keeping our hearts from true freedom. But Papa, knowing that this would happen, already had a plan to bring us back.
 
 Papa released a supernatural Peace and His name is Jesus. Because of who Jesus is and what he did on this earth, sin is now over and we are finally back in perfect harmony with our Dad.
 
