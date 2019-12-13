@@ -47,7 +47,7 @@ In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I join
 
 ## My Journal
 
-* [The Narrow Way - A Personal Story](/gospel-v1)
+* [The Narrow Way - A Personal Story](/narrow-way)
 * [The Gospel - Version 1](/gospel-v1)
 * [Continuing Forgiveness](/forgiveness)
 * [Rest for my soul](/rest-for-my-soul)
