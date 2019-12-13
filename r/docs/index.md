@@ -1,44 +1,3 @@
-<script>
-window.addEventListener('load', function() {
-
-    function randcolor() {
-        const colors = ['#bc5a45', '#618685', '#36486b', '#f18973'];
-        var i = Math.floor(Math.random() * Math.floor(colors.length));
-        return colors[i];
-    }
-
-    function spanit(tn) {
-        var col = document.getElementsByTagName(tn);
-        for (var i = 0; i < col.length; i++) {
-            var text = col[i].innerText;
-            col[i].innerText = '';
-            for (var j = 0; j < text.length; j++) {
-                var s = document.createElement('span');
-                s.className = 'colored';
-                s.innerHTML = text[j];
-                col[i].appendChild(s);
-            }
-        }
-    }
-
-    var x = 0;
-    function rot(offset) {
-        x++;
-        if (x%offset== 0) {
-            var col = document.getElementsByClassName('colored');
-            for (var i = 0; i < col.length; i++) {
-                col[i].style.color = randcolor();
-            }
-        }
-    }
-
-    spanit('h1');
-    spanit('h2');
-    window.addEventListener('mousemove', function() {rot(20)});
-    window.addEventListener('scroll',    function() {rot(5) });
-});
-</script>
-
 <h1>Ryan R. Smith</h1>
 
 Waddup 🤙 Im a son of God, I want to be like Jesus, I am a lovesick worshiper, I live in West Oakland, I ride harleys, I derp computers, and other things that are not listed on this webpage...
@@ -89,3 +48,44 @@ In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I join
 Hotline Webring
 <a href="https://hotlinewebring.club/ryandotsmith/next">→</a>
 </p>
+
+<script>
+window.addEventListener('load', function() {
+
+    function randcolor() {
+        const colors = ['#bc5a45', '#618685', '#36486b', '#f18973'];
+        var i = Math.floor(Math.random() * Math.floor(colors.length));
+        return colors[i];
+    }
+
+    function spanit(tn) {
+        var col = document.getElementsByTagName(tn);
+        for (var i = 0; i < col.length; i++) {
+            var text = col[i].innerText;
+            col[i].innerText = '';
+            for (var j = 0; j < text.length; j++) {
+                var s = document.createElement('span');
+                s.className = 'colored';
+                s.innerHTML = text[j];
+                col[i].appendChild(s);
+            }
+        }
+    }
+
+    var x = 0;
+    function rot(offset) {
+        x++;
+        if (x%offset== 0) {
+            var col = document.getElementsByClassName('colored');
+            for (var i = 0; i < col.length; i++) {
+                col[i].style.color = randcolor();
+            }
+        }
+    }
+
+    spanit('h1');
+    spanit('h2');
+    window.addEventListener('mousemove', function() {rot(20)});
+    window.addEventListener('scroll',    function() {rot(5) });
+});
+</script>
