@@ -45,17 +45,7 @@ Waddup 🤙 Im a son of God, I want to be like Jesus, I am a lovesick worshiper,
 
 In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I joined the Heroku engineering team to help build the world's greatest PAAS. Before joining Heroku I earned a B.S. in Mathematics from the University of Missouri Kansas City.
 
-## Contact
-
-* [r@32k.io](mailto:r@32k.io)
-* [github.com/ryandotsmith](https://github.com/ryandotsmith)
-
-## Talks
-
-* [Predictable Failure](http://vimeo.com/75304752) - Monitorama 2013 [s](http://cl.ly/1o1o243O0z2A/Predictable%20Failure%20Monitorama.pdf)
-* [Fewer Constraints More Concurrency](http://vimeo.com/68850147) - RubyKaigi 2013 [s](http://cl.ly/2812472J073R/Ruby%20Kaigi%202013%20-%20Fewer%20Constraints%20More%20Concurrency.pdf)
-
-## Spirituality
+## My Journal
 
 * [The Narrow Way - A Personal Story](/gospel-v1)
 * [The Gospel - Version 1](/gospel-v1)
@@ -65,6 +55,16 @@ In 2013 I co-founded [Chain](https://chain.com) and serve as CTO. In 2010 I join
 * [Friendships and Oak Trees](/friendships-and-oak-trees)
 * [No Greater Miracle](/no-greater-miracle)
 * [Remind Me of Your Name](/remind-me-of-your-name)
+
+## Contact
+
+* [r@32k.io](mailto:r@32k.io)
+* [github.com/ryandotsmith](https://github.com/ryandotsmith)
+
+## Talks
+
+* [Predictable Failure](http://vimeo.com/75304752) - Monitorama 2013 [s](http://cl.ly/1o1o243O0z2A/Predictable%20Failure%20Monitorama.pdf)
+* [Fewer Constraints More Concurrency](http://vimeo.com/68850147) - RubyKaigi 2013 [s](http://cl.ly/2812472J073R/Ruby%20Kaigi%202013%20-%20Fewer%20Constraints%20More%20Concurrency.pdf)
 
 ## Technical Articles
 
