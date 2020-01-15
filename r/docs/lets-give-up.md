@@ -1,4 +1,4 @@
-# it's not on your shoulders
+# let's give up
 
 The trouble with thinking that you need to get your life in order is that you can neglect the fact the you are already dead. It is not a day-by-day process. Paul didn't die to his flesh daily; yes, he was persecuted unto death daily, but he died once when Jesus died. You don't slowly die for 50 years. When Jesus died, you died too. When Jesus was raised, you were raised too.
 
@@ -8,8 +8,12 @@ When we make a mess, it's because we are still giving power to the dead man. But
 
 Instead of punishing yourself for making a mess, clean up the mess, and then go back to worshiping Jesus. When you recognize the enormous wealth of love, peace, joy, and pleasure that is waiting for you, the things of this earth will grow strangely dim.
 
-Renewing of our mind? Sure, whatever is good, lovely, etc... But we don't need to renew our minds, because the bible says that we have been given the mind of Christ. Taking our thoughts captive isn't a battle that "we" need to fight. We have been given the Spirit of God not the spirit of this world. When we encounter daily thoughts or emotions, our dead flesh is not going to contribute a single good thing. That is above our pay grade. All we must do is hand the thoughts and emotions over to Holy Spirit. The mind of Christ. All power to judge has been given from the Father to Christ and Christ didn't come to judge us but to give us life and life abundantly. Is that too good to be true?
+Renewing of our mind? Sure, whatever is good, lovely, etc... But we don't need to renew our minds, because the bible says that we have been given the mind of Christ. Taking our thoughts captive isn't a battle that "we" need to fight. We have been given the Spirit of God not the spirit of this world. When we encounter icky thoughts or emotions, our dead flesh won't help us one bit. All we must do is hand the thoughts and emotions over to Holy Spirit -- the mind of Christ. Jesus will sort them out for us. And remember, all power to judge has been given from the Father to Jesus and Jesus didn't come to judge **us** but to give us an amazing life. We give him our yucky and he gives us an amazing life. Does that too good to be true?
 
-Let's not make the devil bigger than our God. Let's not get sucked into the rate race of self help and religious striving. Instead let's rest in the finished work of the cross. Let's love God with all we got and trust that he will lead us not unto temptation but beside cool waters. It's mystical. It doesn't make sense. The world will hate you for it. But you are a good boy. You no longer have a sin nature. Because Jesus.
+Let's not make the devil bigger than YHWH. Let's not get sucked into the rat race of self help and religious striving. Instead let's rest in the finished work of the cross. Let's love God with all we got and trust that he will lead us not unto temptation but beside cool waters.
+
+It's mystical. It doesn't make sense. It's foolish. The world will hate you for it. But know that right now, no matter what has happened, you are a good boy. You no longer have a sin nature. Because Jesus.
+
+🖖
 
 *January 14th, 2020*
