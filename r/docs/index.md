@@ -2,7 +2,7 @@
 
 Waddup 🤙 Im a son of God, I want to be like Jesus, I am a lovesick worshiper, I live in West Oakland, I ride harleys, I derp computers, and other things that are not listed on this webpage...
 
-In 2019, my co-founders and I started a new project that we call Pogo. It's a secret for now. In 2013 I co-founded [Chain](https://chain.com) and served as CTO up until we sold it to [Stellar](https://stellar.org) in 2018. In 2010 I joined the Heroku engineering team to help build the world's greatest PAAS. Before joining Heroku I earned a B.S. in Mathematics from the University of Missouri Kansas City.
+In 2019, my co-founders and I started a new project that we call Pogo. It's a secret for now. In 2013 I co-founded [Chain](https://web.archive.org/web/20180809015203/https://chain.com/) and served as CTO up until we sold it to [Stellar](https://stellar.org) in 2018. In 2010 I joined the Heroku engineering team to help build the world's greatest PAAS. Before joining Heroku I earned a B.S. in Mathematics from the University of Missouri Kansas City.
 
 ## My Journal
 
