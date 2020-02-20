@@ -28,6 +28,7 @@ In 2019, my co-founders and I started a new project that we call Pogo. It's a se
 
 ## Technical Articles
 
+* [Production Checklist](/production-checklist)
 * [Building an App Platform on AWS](/app-platforms-on-aws)
 * [L2met Introduction](/l2met-introduction)
 
