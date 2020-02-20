@@ -36,6 +36,7 @@ It's not every day that you ship an app to users with the hope if it becoming wi
 
 ![party time](https://d.32k.io/dance.gif)
 
+February 20th, 2020
 
 [rlc]: https://www.youtube.com/watch?v=m64SWl9bfvk
 [owasp]: https://owasp.org/www-project-top-ten/
