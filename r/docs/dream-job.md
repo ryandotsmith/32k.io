@@ -14,4 +14,4 @@ This is my dream job. I get to roam the earth untethered to a clock. I get to me
 
 Anyways, I'm all yours now, drop me a line and let's hang.
 
-February 20th, 2020 --02202020 fun!
+February 20th, 2020 
