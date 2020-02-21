@@ -10,7 +10,7 @@ This isn't a way to distance myself. I'm not running away. I'm running towards t
 
 Today, my first day on the job, I was walking out of the gym when I saw a couple –who were living in their car– chewing each other out. I walked up to them and started a conversation. I felt Holy Spirit invite me to take a walk with the dude. So Ken and I took a walk. We wondered around West Oakland as I listened to his story. He had a lot to share and I was grateful to listen. I completely lost track of time. As we wondered back to their car, I got to pray for his eye. He had lost his eye ball in an accident and so we prayed for a new one to grow back. We also prayed for his court cases to be dropped. And we prayed against all the devils that were coming against him. I believe his breakthrough is coming!
 
-This is my dream job. I get to roam the earth untethered to a clock. I get to meet new people. See new realms of God's glory. Get to know Jesus a little better. Get to know myself a little better too. And maybe I'll finally make it to Montana.
+This is my dream job. I get to roam the earth untethered to a clock. I get to meet new people. See new realms of God's glory. Get to know Jesus a little better. Get to know myself a little better too. And maybe I'll finally visit Montana.
 
 Anyways, I'm all yours now, drop me a line and let's hang.
 
