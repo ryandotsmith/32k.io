@@ -14,7 +14,6 @@ import (
 var (
 	dir    string
 	layout []byte
-	footer []byte
 	header = []byte("*[r.32k.io](/)*\n")
 )
 
@@ -57,7 +56,7 @@ func do() {
 		srcBytes, err := ioutil.ReadFile(dir + "/docs/" + srcName)
 		check(err)
 
-		destBytes := title(wrap(convert(append(append(header, srcBytes...), footer...))))
+		destBytes := title(wrap(convert(append(header, srcBytes...))))
 		destName := dir + "/site/" + srcName[0:len(srcName)-3]
 		err = ioutil.WriteFile(destName, destBytes, 0644)
 		check(err)
