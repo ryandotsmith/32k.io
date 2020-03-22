@@ -6,6 +6,7 @@ In 2019, my co-founders and I started a new project that we call Pogo. It's a se
 
 ## My Journal
 
+* [Infected with Goodness](/infected-with-goodness)
 * [New Age Christianity](/new-age-christianity)
 * [Dream Job](/dream-job)
 * [Let's Give Up](/lets-give-up)
