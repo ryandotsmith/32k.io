@@ -2,7 +2,7 @@
 
 Do you practice mindfulness? Have you worn a crystal around your neck to stimulate your immune system? Are breathing exercises and meditation routine parts of your day? Perhaps one of your friends manifested gold dust or began levitating during contemplation.
 
-If any of that sounds familiar and if you also believe that Jesus is the creator and sustainer of all things and that His beautiful relationship to Father and Holy Spirit is now made available to everyone, then you've probably been accused of being a new age christian. And I'm now wondering: is that so bad?
+If any of that sounds familiar and if you also believe that Jesus is the creator and sustainer of all things and that His beautiful relationship to Father and Holy Spirit is now made available to everyone, then you've probably been accused of being a new age christian. I wonder: is that so bad?
 
 Don't get me wrong, I take a strong stand against witchcraft and divination. Jesus said the only way into the fold is through Him. He is the gate. Sure, you can sneak in some other way, but there is a cost for entering on your own. *But let's get back on topic.*
 
@@ -16,4 +16,9 @@ If we take the term *new age* at face value then Jesus is the most new age perso
 
 Don't let religion hold you back from living an abundant life full of meditation, mindfulness, healthy breathing, natural medicine, ecstatic trances, supernatural healing, and seeing into the future.
 
+But don't get lost either! Jesus is not a means to an end. He is the beginning and the end. We don't move on to greater things. Meditation, experiences, creation are all things that point to Him.
+
 March 20th, 2020
+
+<hr />
+![img](https://d.32k.io/St-Joseph-of-Cupertino.jpg)
