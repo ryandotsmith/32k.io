@@ -38,6 +38,7 @@ In 2019, my co-founders and I started a new project that we call Pogo. It's a se
 
 ## Notes From My Career
 
+* [Engineering Inspiration](/eng-inspiration)
 * [Engineering Values](/eng-vals)
 * [Personal Accountability at Chain](/personal-accountability-at-chain)
 * [Farewell, Heroku](/farewell-heroku)
