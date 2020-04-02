@@ -2,9 +2,9 @@
 
 This year marks my first decade in web services engineering. I'd be thrilled to share some of the things I've learned along the way. Let's start at the beginning.
 
-What is a web service? Sometimes a web service is the backend for an iOS game, sometimes it's a transaction processor for a financial institution. Nevertheless, I'm talking about the type of programming where you write functions to handle an HTTP request, do business logic, read and write to a database, make an API request, and then send the client an HTTP response. I've been doing this type of work in some capacity, and among other things, for the last 10 years.
+What is a web service? Sometimes a web service is the backend for an iOS game, sometimes it's a transaction processor for a financial institution. Nevertheless, I'm talking about the type of programming where you write functions to handle an HTTP request, do business logic, read and write to a database, make an API request, and then send the client an HTTP response. 
 
-In any event, I've developed a taste or a style for what I consider to be good design for web services. I have by no means perfected my style and I am constantly learning from people who have more or less experience than myself. I don't think I'll ever get it totally figured out, but at the risk of being closed minded, I'll say that I've found a few things that seem to work –specifically in the context of startups. I'll try to enumerate some of the *things* that have shaped my taste:
+Over the years, I've developed a taste for good design in web services. And by no means have I perfected my style and I am constantly learning from people who have more or less experience than myself. And while I don't think I'll ever get it totally figured out I will say that I've found a few things that seem to work –specifically in the context of startups. Here we go:
 
 
 ## Simple Made Easy
@@ -90,6 +90,6 @@ This is a fun paper and it will certainly tickle all of your nerd bones. But, I'
 
 That's it! Well, that's not entirely true. The biggest influence on my career in software has been the amazing people that I've been privileged to work with. I've always tried to be a small fish in a big pond --and thank goodness for that! And thank you:  Adam Wiggins, Blake Mizerany, Daniel Farina, Jackson Owens, Keith Rarick, Mark Fine, Mark McGranaghan, Tess Rinearson, Tom Maher and every single engineer at: Heroku, Chain, and Pogo!
 
-TODO(ryan): write similar note but for engineering management.
+TODO(ryan): write a similar note for leadership
 
 *March 30th, 2020*
