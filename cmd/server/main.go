@@ -1,7 +1,6 @@
 package main
 
 import (
-	"crypto/tls"
 	"flag"
 	"fmt"
 	"log"
@@ -11,8 +10,6 @@ import (
 	"time"
 
 	"github.com/ryandotsmith/32k.io/net/http/limit"
-	"github.com/ryandotsmith/32k.io/net/mylisten"
-	"github.com/ryandotsmith/32k.io/net/mytls"
 )
 
 var (
@@ -47,10 +44,7 @@ func cors(next http.Handler) http.Handler {
 }
 
 func main() {
-	listen := flag.String("listen", "localhost:7000", "listen `address` (if no LISTEN_FDS)")
 	dir := flag.String("data", "./sdat", "data directory")
-	flag.Parse()
-
 	err := os.MkdirAll(*dir, 0700)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
@@ -63,28 +57,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	l, r, err := mylisten.SystemdOr(*listen)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "listen:", err)
-		os.Exit(1)
-	}
-
-	if r != nil {
-		go func() {
-			rSrv := &http.Server{
-				ReadTimeout:  5 * time.Second,
-				WriteTimeout: 5 * time.Second,
-				Handler: http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
-					w.Header().Set("Connection", "close")
-					url := "https://" + req.Host + req.URL.String()
-					http.Redirect(w, req, url, http.StatusMovedPermanently)
-				}),
-			}
-			err := rSrv.Serve(r)
-			panic(err)
-		}()
-	}
-
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", hello)
 	mux.HandleFunc("/c/suggest", suggestion)
@@ -94,9 +66,16 @@ func main() {
 	handler = limit.MaxBytes(handler, limit.OneMB)
 	handler = cors(handler)
 
+	var listen = ":8080"
+	if l := os.Getenv("LISTEN"); l != "" {
+		listen = l
+	}
+	fmt.Printf("listening on %q\n", listen)
+
 	// Timeout settings based on Filippo's late-2016 blog post
 	// https://blog.filippo.io/exposing-go-on-the-internet/.
 	srv := &http.Server{
+		Addr:        listen,
 		ReadTimeout: 5 * time.Second,
 		// must be higher than the event handler timeout (10s)
 		WriteTimeout: 15 * time.Second,
@@ -104,14 +83,7 @@ func main() {
 		Handler:      handler,
 	}
 
-	cfg, err := mytls.LocalOrLets(*dir)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "tls:", err)
-		os.Exit(1)
-	}
-
-	err = srv.Serve(tls.NewListener(l, cfg))
-	if err != nil {
+	if err := srv.ListenAndServe(); err != nil {
 		fmt.Fprintln(os.Stderr, "ListenAndServe:", err)
 		os.Exit(1)
 	}
