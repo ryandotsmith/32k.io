@@ -7,7 +7,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/russross/blackfriday"
+	"github.com/yuin/goldmark"
+	"github.com/yuin/goldmark/extension"
+	"github.com/yuin/goldmark/parser"
+	gmhtml "github.com/yuin/goldmark/renderer/html"
 	"golang.org/x/net/html"
 )
 
@@ -97,24 +100,19 @@ func wrap(body []byte) []byte {
 }
 
 func convert(source []byte) []byte {
-	htmlFlags := 0
-	htmlFlags |= blackfriday.HTML_USE_XHTML
-	htmlFlags |= blackfriday.HTML_USE_SMARTYPANTS
-	htmlFlags |= blackfriday.HTML_SMARTYPANTS_FRACTIONS
-	htmlFlags |= blackfriday.HTML_SMARTYPANTS_LATEX_DASHES
-	htmlFlags |= blackfriday.HTML_SMARTYPANTS_DASHES
-	renderer := blackfriday.HtmlRenderer(htmlFlags, "", "")
-
-	extensions := 0
-	extensions |= blackfriday.EXTENSION_NO_INTRA_EMPHASIS
-	extensions |= blackfriday.EXTENSION_TABLES
-	extensions |= blackfriday.EXTENSION_FENCED_CODE
-	extensions |= blackfriday.EXTENSION_AUTOLINK
-	extensions |= blackfriday.EXTENSION_STRIKETHROUGH
-	extensions |= blackfriday.EXTENSION_SPACE_HEADERS
-	extensions |= blackfriday.EXTENSION_HEADER_IDS
-	extensions |= blackfriday.EXTENSION_LAX_HTML_BLOCKS
-	extensions |= blackfriday.EXTENSION_AUTO_HEADER_IDS
-
-	return blackfriday.Markdown(source, renderer, extensions)
+	md := goldmark.New(
+		goldmark.WithExtensions(extension.GFM, extension.Typographer),
+		goldmark.WithParserOptions(
+			parser.WithAutoHeadingID(),
+		),
+		goldmark.WithRendererOptions(
+			gmhtml.WithHardWraps(),
+			gmhtml.WithXHTML(),
+			gmhtml.WithUnsafe(),
+		),
+	)
+	var buf bytes.Buffer
+	err := md.Convert(source, &buf)
+	check(err)
+	return buf.Bytes()
 }
