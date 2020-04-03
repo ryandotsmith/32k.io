@@ -43,6 +43,19 @@ func cors(next http.Handler) http.Handler {
 	})
 }
 
+func usetls(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		xfp := r.Header.Get("x-forwarded-proto")
+		if xfp == "http" {
+			redir := "https://" + r.Host + r.RequestURI
+			w.Header().Set("Connection", "close")
+			http.Redirect(w, r, redir, http.StatusTemporaryRedirect)
+			return
+		}
+		next.ServeHTTP(w, r)
+	})
+}
+
 func main() {
 	dir := flag.String("data", "./sdat", "data directory")
 	err := os.MkdirAll(*dir, 0700)
@@ -65,6 +78,7 @@ func main() {
 	handler = limit.NewHandler(mux, 10)
 	handler = limit.MaxBytes(handler, limit.OneMB)
 	handler = cors(handler)
+	handler = usetls(handler)
 
 	var listen = ":8080"
 	if l := os.Getenv("LISTEN"); l != "" {
