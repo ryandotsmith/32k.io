@@ -25,6 +25,10 @@ In 2019, my co-founders and I started a new project that we call Pogo. It's a se
 * [r@32k.io](mailto:r@32k.io)
 * [github.com/ryandotsmith](https://github.com/ryandotsmith)
 
+## Finance
+
+* [Money is a Reflection - Investing](/money-reflect-invest)
+
 ## Talks
 
 * [Predictable Failure](http://vimeo.com/75304752) - Monitorama 2013 [s](http://cl.ly/1o1o243O0z2A/Predictable%20Failure%20Monitorama.pdf)

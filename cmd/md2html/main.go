@@ -101,14 +101,14 @@ func wrap(body []byte) []byte {
 
 func convert(source []byte) []byte {
 	md := goldmark.New(
-		goldmark.WithExtensions(extension.GFM, extension.Typographer),
-		goldmark.WithParserOptions(
-			parser.WithAutoHeadingID(),
-		),
 		goldmark.WithRendererOptions(
 			gmhtml.WithHardWraps(),
 			gmhtml.WithXHTML(),
 			gmhtml.WithUnsafe(),
+		),
+		goldmark.WithExtensions(extension.GFM, extension.Typographer),
+		goldmark.WithParserOptions(
+			parser.WithAutoHeadingID(),
 		),
 	)
 	var buf bytes.Buffer
