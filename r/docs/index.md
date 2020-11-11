@@ -4,8 +4,9 @@ Waddup 🤙 Im a son of God, I live in West Oakland, I ride harleys, I derp comp
 
 In 2019, my co-founders and I started a new project that we call Pogo. It's a secret for now. In 2013 I co-founded [Chain](https://web.archive.org/web/20180809015203/https://chain.com/) and served as CTO up until we sold it to [Stellar](https://stellar.org) in 2018. In 2010 I joined the Heroku engineering team to help build the world's greatest PAAS. Before joining Heroku I earned a B.S. in Mathematics from the University of Missouri Kansas City.
 
-## Spirituality 
+## Spirituality
 
+* [Where is God?](/where-is-god)
 * [Waiting on God - Prov 28:9](/prov-28:9)
 * [Infected with Goodness](/infected-with-goodness)
 * [New Age Christianity](/new-age-christianity)
@@ -29,8 +30,9 @@ In 2019, my co-founders and I started a new project that we call Pogo. It's a se
 * [Predictable Failure](http://vimeo.com/75304752) - Monitorama 2013 [s](http://cl.ly/1o1o243O0z2A/Predictable%20Failure%20Monitorama.pdf)
 * [Fewer Constraints More Concurrency](http://vimeo.com/68850147) - RubyKaigi 2013 [s](http://cl.ly/2812472J073R/Ruby%20Kaigi%202013%20-%20Fewer%20Constraints%20More%20Concurrency.pdf)
 
-## Technical Articles
+## Nerd Stuff
 
+* [KN6LLA](/kn6lla)
 * [Production Checklist](/production-checklist)
 * [Building an App Platform on AWS](/app-platforms-on-aws)
 * [L2met Introduction](/l2met-introduction)
