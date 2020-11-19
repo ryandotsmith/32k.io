@@ -15,7 +15,7 @@ But HAM had always seemed out of reach. I guess it was the test, or perhaps not 
 
 Since picking up my radio I have talked to several folks all over California. I've gotten plugged into a repeater network and I'm also talking with a friend --who lives nearly 3 miles away-- in simplex mode. This is truly a dream come true. After all the advances in technology over the last couple of decades, I'm still amazed with radios.
 
-<video width="480" controls="controls">
+<video controls="controls">
 <source src="https://d.32k.io/ryan-kn6lla.mp4" type="video/mp4">
 </video>
 
