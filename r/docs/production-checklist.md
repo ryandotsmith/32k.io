@@ -2,9 +2,6 @@
 
 *A backend perspective*
 
-It's not every day that you ship an app to users with the hope if it becoming wildly successful, nevertheless, I have a checklist for that day. Heck, even if you shipped your app last year, it might be good to do a quick check.
-
-
 * Running 2 app servers in distinct availability zones
 * Slightly over-provisioned database with hot standby
 * Serve all static assets via CDN -- the app server should serve an asset exactly once
@@ -33,8 +30,6 @@ It's not every day that you ship an app to users with the hope if it becoming wi
 * If you have time, do a load test
 * Make sure more than one person has access to servers and deploy tools, etc...
 * Have fun! You did it! You shipped your app to production!
-
-![party time](https://d.32k.io/dance.gif)
 
 February 20th, 2020
 

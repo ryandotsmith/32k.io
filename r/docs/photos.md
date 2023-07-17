@@ -1,4 +1,6 @@
 <section id="imgs" style="margin: 10px;">
+    <img src="https://d.32k.io/brook-in-austin.jpg"/>
+    <img src="https://d.32k.io/brooke-and-ryan.jpg"/>
     <img src="https://d.32k.io/ryan-austin.jpg"/>
     <img src="https://d.32k.io/phils-big-day.jpg"/>
     <img src="https://d.32k.io/ryan-shovel.jpg"/>

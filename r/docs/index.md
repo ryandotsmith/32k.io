@@ -1,24 +1,33 @@
 <h1>Ryan R. Smith</h1>
 
-Waddup 🤙 Im a son of God, I live in West Oakland, I ride harleys, I derp computers, and other things that are not listed on this webpage...
+Welcome to my web page. My interests include: mythology, theology, history of western civilization, trees, architecture, decentralization, other similar things, and all thing related to computer programming.
 
-In 2019, my co-founders and I started a new project that we call Pogo. It's a secret for now. In 2013 I co-founded [Chain](https://web.archive.org/web/20180809015203/https://chain.com/) and served as CTO up until we sold it to [Stellar](https://stellar.org) in 2018. In 2010 I joined the Heroku engineering team to help build the world's greatest PAAS. Before joining Heroku I earned a B.S. in Mathematics from the University of Missouri Kansas City.
+
+October 2022 I started a new company called [Index Supply, Co.](https://github.com/indexsupply) I'm going to build a new kind of ethereum node.
+
+My work history in a nutshell:
+- 2021 - 2022 - Built the Ethereum indexing system at [mint.fun](https://mint.fun).
+- 2018 - 2019 - Started and stopped a cross border wallet called Pogo with co-founders from Chain.
+- 2013 - 2018 - Co-founder / CTO at Chain. Acquired by Interstellar –the comercial arm of Stellar. Pivoted from Bitcoin API to private blockchain node to decentralized ledger.
+- 2010 - 2013 - Heroku engineer. Joined as the 18th employee and grew with the company till we hit 150 people and millions of apps. Loved Heroku a lot!
+
+Before that:
+- 2006 - 2010 - Undergrad Math at the University of Missouri KC.
+- 1986 - I’ve been programming computers for as long as I can remember.
+
+Listed in [30u30](https://www.forbes.com/pictures/mdg45ejdik/ryan-smith-29/?sh=2aed631ac70b) and not convicted of crimes
+
+### Books I've read recently
+
+- [Anti-Intellectualism in American Life, The Paranoid Style in American Politics](https://www.goodreads.com/book/show/51005822-richard-hofstadter)
+- [Khomeinism: Essays on the Islamic Republic](https://www.goodreads.com/book/show/238095.Khomeinism)
+- [Six Easy Pieces: Essentials of Physics Explained by Its Most Brilliant Teacher](https://www.goodreads.com/book/show/10025702-six-easy-pieces)
 
 ## Spirituality
 
+* [Work Life Balance](/work-life-balance)
 * [Where is God?](/where-is-god)
-* [Waiting on God - Prov 28:9](/prov-28:9)
-* [Infected with Goodness](/infected-with-goodness)
-* [New Age Christianity](/new-age-christianity)
-* [Dream Job](/dream-job)
-* [Let's Give Up](/lets-give-up)
-* [The Narrow Way - A Personal Story](/narrow-way)
-* [The Gospel - Version 1](/gospel-v1)
-* [Continuing Forgiveness](/forgiveness)
-* [Rest for my soul](/rest-for-my-soul)
-* [God](/God)
 * [Friendships and Oak Trees](/friendships-and-oak-trees)
-* [No Greater Miracle](/no-greater-miracle)
 * [Remind Me of Your Name](/remind-me-of-your-name)
 
 ## Finance
@@ -55,12 +64,6 @@ In 2019, my co-founders and I started a new project that we call Pogo. It's a se
 
 <hr />
 <img src="https://d.32k.io/earth.gif" style="margin: 0 auto; display: block; max-width: 50px;" alt="world wide web">
-
-<p style="text-align: center">
-<a href="https://hotlinewebring.club/ryandotsmith/previous">←</a>
-Hotline Webring
-<a href="https://hotlinewebring.club/ryandotsmith/next">→</a>
-</p>
 
 <script>
 window.addEventListener('load', function() {

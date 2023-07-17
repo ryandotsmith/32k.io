@@ -2,7 +2,7 @@
 
 This year marks my first decade in web services engineering. I'd be thrilled to share some of the things I've learned along the way. Let's start at the beginning.
 
-What is a web service? Sometimes a web service is the backend for an iOS game, sometimes it's a transaction processor for a financial institution. Nevertheless, I'm talking about the type of programming where you write functions to handle an HTTP request, do business logic, read and write to a database, make an API request, and then send the client an HTTP response. 
+What is a web service? Sometimes a web service is the backend for an iOS game, sometimes it's a transaction processor for a financial institution. Nevertheless, I'm talking about the type of programming where you write functions to handle an HTTP request, do business logic, read and write to a database, make an API request, and then send the client an HTTP response.
 
 Over the years, I've developed a taste for good design in web services. And by no means have I perfected my style and I am constantly learning from people who have more or less experience than myself. And while I don't think I'll ever get it totally figured out I will say that I've found a few things that seem to work –specifically in the context of startups. Here we go:
 
@@ -13,7 +13,7 @@ Over the years, I've developed a taste for good design in web services. And by n
 
 Simplicity is objective. Count the number of things in a system. If the number of things is one then the system is simple otherwise it is complex. Simplicity and reliability go hand in hand.
 
-Be careful with dependencies. Most of the time it is better to right a function to left pad a string instead of using a 3rd party dependency. The simplicity and control you get from writing code "by hand" usually dwarfs the initial time investment in writing the code.
+Be careful with dependencies. Most of the time it is better to write a function to left pad a string instead of using a 3rd party dependency. The simplicity and control you get from writing code "by hand" usually dwarfs the initial time investment in writing the code.
 
 ## Crash-Only Software
 
@@ -31,13 +31,13 @@ I feel like there is a great paper out there on why it is scientifically better 
 
 > Einstein repeatedly argued that there must be simplified explanations of nature, because God is not capricious or arbitrary. No such faith comforts the software engineer. Much of the complexity he must master is arbitrary complexity, forced without rhyme or reason by the many human institutions and systems to which his interfaces must confirm. These differ from interface to interface, and from time to time, not because of necessity but only because they were designed by different people, rather than by God.
 
-His note on OOP is interesting. I think we are observing that dogmatic OOP becomes a source of poor design and consequently defects in quality and maintainability. It seems like we are landing on a hybrid of OOP and Functional programming. It's not uncommon to see a mix of modules with exported functions that accept primitive data types and a few classes with methods in a modern program. Which seems fine.
+His note on OOP is interesting. I think we are observing that dogmatic OOP leads to poor design and consequently to a decrease in quality and maintainability. It seems like we are landing on a hybrid of OOP and functional programming. It's not uncommon to see a mix of modules with exported functions that accept primitive data types and a few classes with methods in a modern program. Which seems fine.
 
 > The most radical possible solution for constructing software is not to construct it at all.
 
 I love this. No code is better than no code!
 
-> The hardest single part of building a software system is deciding precisely what to build. 
+> The hardest single part of building a software system is deciding precisely what to build.
 
 This section is way ahead of its time. Time and time again I have seen that having a product manager who is responsible for the *what* of the system design has lead to cheaper, faster, and higher quality software builds.
 
